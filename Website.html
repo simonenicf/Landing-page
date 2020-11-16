@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Website</title>
+</head>
+<body>
+    <h1 style="color:purple;">INFO</h1>
+    
+    <p1 style="color:red;">Some information and stuff</p1>
+    <p2 style="color:red;">Link to my github: </p2>
+    <a href="https://github.com/simonenicf">simonenicf github</a>
+    <br>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body {
+      padding: 25px;
+      background-color: white;
+      color: black;
+      font-size: 25px;
+    }
+    
+    .dark-mode {
+      background-color: black;
+      color: white;
+    }
+    </style>
+    </head>
+<button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+</body>
